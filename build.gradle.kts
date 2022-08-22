@@ -11,7 +11,7 @@ catalog {
 
 publishing {
     publications {
-        register("release", MavenPublication::class) {
+        create<MavenPublication>("maven") {
             groupId = "com.github.cren90"
             artifactId = "android-versions"
             version = "0.0.1"
