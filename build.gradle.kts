@@ -1,7 +1,6 @@
 plugins {
     `version-catalog`
     `maven-publish`
-    signing
 }
 
 catalog {
@@ -42,8 +41,4 @@ publishing {
             }
         }
     }
-}
-
-signing {
-    sign(publishing.publications["release"])
 }
