@@ -183,13 +183,11 @@ scarlet-websocket-mockwebserver = { module = "com.tinder.scarlet:websocket-mockw
 flowEventBus = { module = "com.github.cren90:Kotlin-Flow-Event-Bus", version.ref = "flow-event-bus" }
 kotlin-common = { module = "com.github.cren90:kotlin-common", version = "1.0.0" }
 android-common = { module = "com.github.cren90:android-common", version = "1.0.0" }
-android-common = { module = "com.github.cren90:android-time", version = "1.0.0" }
-android-common = { module = "com.github.cren90:android-network", version = "1.0.0" }
-android-common = { module = "com.github.cren90:android-location", version = "1.0.0" }
-android-common = { module = "com.github.cren90:android-logging", version = "1.0.0" }
-android-common = { module = "com.github.cren90:android-compose-progress", version = "1.0.0" }
-android-common = { module = "com.github.cren90:android-common", version = "1.0.0" }
-android-common = { module = "com.github.cren90:android-common", version = "1.0.0" }
+android-time = { module = "com.github.cren90:android-time", version = "1.0.0" }
+android-network = { module = "com.github.cren90:android-network", version = "1.0.0" }
+android-location = { module = "com.github.cren90:android-location", version = "1.0.0" }
+android-logging = { module = "com.github.cren90:android-logging", version = "1.0.0" }
+android-compose-progress = { module = "com.github.cren90:android-compose-progress", version = "1.0.0" }
 spannable = { module = "com.github.cren90:spannablektx", version.ref = "spannable" }
 
 timber = { module = "com.jakewharton.timber:timber", version.ref = "timber"}
