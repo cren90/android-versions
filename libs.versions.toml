@@ -102,7 +102,6 @@ androidx-vectorDrawableAnimated = { module = "androidx.vectordrawable:vectordraw
 espresso-androidx = { module = "androidx.test.espresso:espresso-core", version.ref = "espresso-androidx" }
 espresso-androidx-idlingResource = { module = "androidx.test.espresso:espresso-idling-resource", version.ref = "espresso-androidx" }
 
-flowEventBus = { module = "com.github.cren90:Kotlin-Flow-Event-Bus", version.ref = "flow-event-bus" }
 
 firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebase-bom" }
 firebase-appcheck-custom = { module = "com.google.firebase:firebase-appcheck" }
@@ -180,6 +179,9 @@ scarlet = { module = "com.tinder.scarlet:scarlet", version.ref = "scarlet" }
 scarlet-stream-adapter-coroutines = { module = "com.tinder.scarlet:stream-adapter-coroutines", version.ref = "scarlet" }
 scarlet-websocket-okhttp = { module = "com.tinder.scarlet:websocket-okhttp", version.ref = "scarlet" }
 scarlet-websocket-mockwebserver = { module = "com.tinder.scarlet:websocket-mockwebserver", version.ref = "scarlet" }
+
+flowEventBus = { module = "com.github.cren90:Kotlin-Flow-Event-Bus", version.ref = "flow-event-bus" }
+kotlin-common = { module = "com.github.cren90:kotlin-common", version = "1.0.0" }
 
 spannable = { module = "com.github.cren90:spannablektx", version.ref = "spannable" }
 
